@@ -1,0 +1,353 @@
+/*============================================================================================================================
+Tawr aincha style 
+Author  : Ayoub Bousskiri
+Email   : admin@info2you.ga
+website : www.info2you.ga
+============================================================================================================================*/
+
+
+/*--------- import Animated------------------*/
+@import url("https://cdn.rawgit.com/novayoub/tawr-aincha/master/Animated.css");
+
+/*---------- import arabic font -------*/
+@import url("https://cdn.rawgit.com/novayoub/tawr-aincha/master/font.css");
+
+
+/*----- style Tawr aincha ------*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: none;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+
+body{
+font-family: sharbotu-font;
+background-image: url(https://2.bp.blogspot.com/-Tli7X-Epbus/V5ENQ3om9hI/AAAAAAAAAWc/xsCPHqTOTIQeJu8ZEaXmFIIGoMyxnyyPACLcB/s1600/tr.png);
+color:#FFFFFF;
+background-color: #087845 ;
+background-repeat: no-repeat;
+Background-attachment: fixed;
+ overflow-x: visible;
+  overflow-y: visible;
+    direction: rtl;
+}
+/*---- logo Tawr aincha ----*/
+
+.logo{
+  justify-content: center;
+margin: 10px 180px;
+
+ 
+/*---- intro ------*/
+
+}
+.intro{
+padding-top: 15px;
+background-color:#20BD76;
+}
+.intro-titre{
+font-size: 30px;
+text-align: center;
+}
+.intro-ling{
+float:center;
+width: 311px;
+padding: 10px 100px 5px 250px;
+margin: 20px 100px ;
+ border-top-width: 4px;
+		border-top-style: double;
+		border-top-color: #7A9A6C;
+}
+.intro-text{
+ display: block;
+  margin: 20x auto;
+  padding-right: 15px;
+ padding-left: 15px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+}
+.intro-w{
+background-image: url(http://i.imgsafe.org/6abf16d3a4.png);
+height: 50px;
+margin: 0px auto;
+background-position:10px100px;
+padding-left:14px;
+margin-left:15px;
+}
+
+
+/*---- intro W --------*/
+
+
+.w-t{
+background-image: url(https://2.bp.blogspot.com/-Tli7X-Epbus/V5ENQ3om9hI/AAAAAAAAAWc/xsCPHqTOTIQeJu8ZEaXmFIIGoMyxnyyPACLcB/s1600/tr.png);
+padding-top: 15px;
+background-color:#135ABF;
+}
+.w-titre{
+font-size: 30px;
+text-align: center;
+color:#FFFFFF;
+}
+.w-ling{
+float:center;
+width: 311px;
+padding: 10px 100px 5px 250px;
+margin: 20px 100px ;
+ border-top-width: 4px;
+		border-top-style: double;
+		border-top-color: #FFFFFF;
+}
+
+
+/*------- counter ---*/
+
+article#counter{
+  height: 100%;
+    min-width: 57%;
+    padding: 5px 0px;
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+
+}
+.time span{
+ height: 5px;
+    width: 5px;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 48px;
+    position: relative;
+    top: 48px;
+    text-align: center;
+
+}
+.time li{
+background-color:#F17911;
+ height:150px;
+width: 159px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+  overflow: hidden;
+    list-style-type: none;
+    list-style: none;
+    
+    padding: 0px;
+    float: right;
+margin: 14px;
+clear: inherit;
+text-align: center;
+  justify-content: center;
+
+
+}
+.time li:hover{
+background-color:#A0B17A;
+-webkit-border-radius: 3px;
+-webkit-border-top-left-radius: 100px;
+-webkit-border-bottom-right-radius: 100px;
+-moz-border-radius: 3px;
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-bottomright: 100px;
+border-radius: 3px;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+
+}
+.w-t1{
+background-image: url(https://2.bp.blogspot.com/-Tli7X-Epbus/V5ENQ3om9hI/AAAAAAAAAWc/xsCPHqTOTIQeJu8ZEaXmFIIGoMyxnyyPACLcB/s1600/tr.png);
+padding-top: 15px;
+background-color:#51C971;
+
+
+/*------ subscribe -------*/
+
+
+}
+#subscribe {
+	height: 300px;
+	width: 100%;
+        float: both;
+
+}
+#sub {
+}
+
+#subbutton {
+    padding: 6px 40px;
+    background: #FF0036;
+    color: #fff;
+    font-family: sharbotu-font;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 14px;
+   
+    border-radius: 6px;
+      justify-content: center;
+
+}
+
+#subbutton:hover {
+    background: #13c2e2;
+    color: #fff;
+    -webkit-border-top-left-radius: 100px;
+-webkit-border-bottom-right-radius: 100px;
+-webkit-border-bottom-left-radius: 12px;
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-bottomright: 100px;
+-moz-border-radius-bottomleft: 12px;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 100px;
+border-bottom-left-radius: 12px;
+}
+
+#subtext {
+    height: 36px;
+    width: 365px;
+    padding: 2px;
+    background: #D593E0;
+    color: #a0a0a0;
+   font-family: sharbotu-font;
+    font-size: 20px;
+    
+      justify-content: center;
+    text-align: center;
+        float: both;
+        -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+ margin: 50px 90px 20px 6px;
+}
+#secform{
+    float: both;
+
+}
+
+
+/*---- ??????? -------*/
+
+
+.i-text{
+display: block;
+  margin: 20x auto;
+  padding-right: 15px;
+ padding-left: 15px;
+  padding-bottom: -500px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+}
+
+
+/*------- footer ----*/
+
+.footer{
+padding-top: 15px;
+padding-bottom: 15px;
+background-color:#B794B8;
+background-image: url(https://2.bp.blogspot.com/-Tli7X-Epbus/V5ENQ3om9hI/AAAAAAAAAWc/xsCPHqTOTIQeJu8ZEaXmFIIGoMyxnyyPACLcB/s1600/tr.png);
+}
+.footer-titre{
+font-size: 30px;
+text-align: center;
+color:#FFFFFF;
+}
+.footer-ling{
+float:center;
+width: 300px;
+padding: 10px 100px 5px 170px;
+margin: 20px 100px ;
+ border-top-width: 4px;
+		border-top-style: double;
+		border-top-color: #FFFFFF;
+}
+.footer-text{
+display: block;
+  margin: 20x auto;
+  padding-right: 15px;
+ padding-left: 15px;
+  padding-bottom: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+}
+
+<!-- social bottom -->
+#social {
+        display: inline;
+        text-align: center;
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    margin: 0 auto; 
+    
+
+}
+
+#social a {
+    text-align: center;
+}
+
+#social i {
+    height: 25px;
+    width: 25px;
+    margin: auto 6px;
+    padding: 20px 30px;
+    background: #5FD8F0;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 14px;
+    text-align: center;
+
+    
+
+}
+
+
+
+#social i.fa.fa-google-plus{
+background:#cb2027;
+}
+#social i.fa.fa-facebook{
+background:#366299;
+}
+#social i.fa.fa-youtube{
+background:#d1252a;
+}
+#social i.fa.fa-twitter{
+background:#4099FF;
+}
+#social i.fa.fa-whatsapp{
+background:#1ca933;
+}
+#social i.fa.fa-instagram{
+background:#C08D64;
+}
+#social i:hover{
+-webkit-animation:rubberBand .8s 1;-moz-animation:rubberBand .8s 1;-o-animation:rubberBand .8s 1;animation:rubberBand .8s 1
+}
+#credits    {
+    width: 280px;
+    margin: 50px auto;
+    font-weight: bold;
+}
+#credits a {
+
+    color: #5FD8F0;
+    text-decoration: none;
+}
+
+
+
+/*------- END STYLE -------*/
